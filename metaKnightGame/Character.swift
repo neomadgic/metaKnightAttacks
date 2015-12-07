@@ -10,7 +10,52 @@ import Foundation
 
 class Character
 {
-    var _hp: Int = 100
-    var _atkPwr: Int = 60
+    private var _hp: Int = 100
+    private var _atkPwr: Int = 10
 
+    
+    var hp: Int
+    {
+        return _hp;
+    }
+    
+    var atkPwr: Int
+    {
+        return _atkPwr;
+    }
+    
+    init()
+    {
+        
+    }
+    
+    init(startingHp: Int, startingAtkPwr: Int)
+    {
+        self._hp = startingHp
+        self._atkPwr = startingAtkPwr;
+    }
+    
+    func attemptAttack(atkPwr: Int) -> Bool
+    {
+        self._hp -= atkPwr;
+        
+        return true;
+    }
+    
+    var isAlive: Bool
+    {
+        get
+        {
+            if hp <= 0
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+    }
+    
+    
 }
