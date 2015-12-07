@@ -18,12 +18,17 @@ class ViewController: UIViewController
     @IBOutlet weak var enemyHpLbl: UILabel!
     @IBOutlet weak var treasureChestBtn: UIButton!
     
-    
-    
+    var player = Player!()
+    var enemy = Enemy!()
+    var treasureChestMsg: String = "";
+    var enemyAppearsMeg: String = "";
+
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        generateRandomEnemy();
+        bannerLbl.text = enemyAppearsMeg;
         
     }
     
@@ -37,7 +42,23 @@ class ViewController: UIViewController
         
     }
     
-
+    func generateRandomEnemy()
+    {
+        let rand = Int(arc4random_uniform(2))
+        
+        if rand == 0
+        {
+            enemy = CommonBird();
+            commonBirdImage.hidden = false;
+        }
+        else
+        {
+            enemy = Cybird();
+            cybirdImage.hidden = false;
+        }
+        
+        enemyAppearsMeg = "A wild \(enemy.type) has appeared!"
+    }
 
 }
 

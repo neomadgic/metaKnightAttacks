@@ -38,12 +38,6 @@
                                     <constraint firstAttribute="height" constant="66" id="Lmb-Y8-ges"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press the attack button to attack!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Xi-L0p" userLabel="bannerLbl">
-                                <rect key="frame" x="67" y="28" width="460" height="50"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" red="0.16524861106444266" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snowBottomBG-1" translatesAutoresizingMaskIntoConstraints="NO" id="hUK-oR-vpw">
                                 <rect key="frame" x="0.0" y="544" width="453" height="56"/>
                                 <constraints>
@@ -72,6 +66,15 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="8vM-1v-xNu"/>
                                     <constraint firstAttribute="width" constant="240" id="Vpp-LE-Hoi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBird" translatesAutoresizingMaskIntoConstraints="NO" id="R1b-M3-84g" userLabel="commonBird">
+                                <rect key="frame" x="330" y="430" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="7ys-6f-HRO"/>
+                                    <constraint firstAttribute="height" constant="128" id="RrP-fZ-cJg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="goK-fc-XLz"/>
+                                    <constraint firstAttribute="width" constant="240" id="yLw-bO-7nv"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lf2-fi-WVU" userLabel="metaKnightHP">
@@ -105,18 +108,20 @@
                                     <action selector="onAttackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPY-1F-hnj"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBird" translatesAutoresizingMaskIntoConstraints="NO" id="R1b-M3-84g" userLabel="commonBird">
-                                <rect key="frame" x="330" y="430" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press the attack button to attack!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Xi-L0p" userLabel="bannerLbl">
+                                <rect key="frame" x="52" y="20" width="496" height="66"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="7ys-6f-HRO"/>
-                                    <constraint firstAttribute="height" constant="128" id="RrP-fZ-cJg"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="goK-fc-XLz"/>
-                                    <constraint firstAttribute="width" constant="240" id="yLw-bO-7nv"/>
+                                    <constraint firstAttribute="height" constant="66" id="3NE-AI-2kP"/>
+                                    <constraint firstAttribute="width" constant="496" id="61U-3E-uCz"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.16524861106444266" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="GbV-Xi-L0p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="04s-71-hB9"/>
                             <constraint firstItem="Lf2-fi-WVU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Vr-js-cvX"/>
                             <constraint firstAttribute="trailing" secondItem="zqe-d9-ufx" secondAttribute="trailing" constant="30" id="3Yo-Py-rkB"/>
                             <constraint firstItem="4Ud-Fy-U8A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4uS-C2-xW4"/>
@@ -133,6 +138,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zBN-OV-Lpb" secondAttribute="bottom" constant="42" id="VSd-kF-wty"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zBN-OV-Lpb" secondAttribute="trailing" constant="77" id="XqF-xM-lY9"/>
                             <constraint firstItem="Lf2-fi-WVU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="121" id="aPv-gx-oUQ"/>
+                            <constraint firstItem="GbV-Xi-L0p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dFa-hq-CDi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="s2w-yS-hw5" secondAttribute="trailing" constant="84" id="k1x-11-XGO"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Ud-Fy-U8A" secondAttribute="bottom" id="mu9-Qa-USh"/>
                             <constraint firstAttribute="trailing" secondItem="Jug-iS-hAG" secondAttribute="trailing" constant="20" id="ojb-Wv-WFj"/>
