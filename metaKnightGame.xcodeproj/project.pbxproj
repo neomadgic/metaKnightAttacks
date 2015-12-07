@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76C549761C156C3B00FAB9B1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C549751C156C3B00FAB9B1 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
 		76F58CDE1C1562480058E999 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F58CDD1C1562480058E999 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
 		76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */; };
 		76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CD1C1560E1008783D7 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76C549751C156C3B00FAB9B1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		76F58CDD1C1562480058E999 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		76F5E2C81C1560E1008783D7 /* metaKnightGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metaKnightGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				76F5E2D41C1560E1008783D7 /* LaunchScreen.storyboard */,
 				76F5E2D71C1560E1008783D7 /* Info.plist */,
 				76F58CDD1C1562480058E999 /* Character.swift */,
+				76C549751C156C3B00FAB9B1 /* Player.swift */,
 			);
 			path = metaKnightGame;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C549761C156C3B00FAB9B1 /* Player.swift in Sources */,
 				76F58CDE1C1562480058E999 /* Character.swift in Sources */,
 				76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */,
 				76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */,
