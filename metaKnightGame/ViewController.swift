@@ -8,17 +8,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    @IBOutlet weak var bannerLbl: UILabel!
+    @IBOutlet weak var cybirdImage: UIImageView!
+    @IBOutlet weak var commonBirdImage: UIImageView!
+    @IBOutlet weak var metaKnightHpLbl: UILabel!
+    @IBOutlet weak var enemyHpLbl: UILabel!
+    @IBOutlet weak var treasureChestBtn: UIButton!
+    
+    
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func onAttackBtnPressed(sender: AnyObject)
+    {
+        
     }
+    
+    @IBAction func onTreasureBtnPressed(sender: AnyObject)
+    {
+        
+    }
+    
 
 
 }

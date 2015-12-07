@@ -20,6 +20,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4Ud-Fy-U8A">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-OV-Lpb" userLabel="treasureChest">
+                                <rect key="frame" x="397" y="438" width="106" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="AoK-JQ-zjQ"/>
+                                    <constraint firstAttribute="width" constant="106" id="P0W-V2-9yV"/>
+                                </constraints>
+                                <state key="normal" image="treasureChest"/>
+                                <connections>
+                                    <action selector="onTreasureBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ROI-g5-QoO"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whiteSnowBanner" translatesAutoresizingMaskIntoConstraints="NO" id="Jkx-00-Rtw">
                                 <rect key="frame" x="52" y="20" width="496" height="66"/>
                                 <constraints>
@@ -27,7 +38,7 @@
                                     <constraint firstAttribute="height" constant="66" id="Lmb-Y8-ges"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meta Knight attacks Common Bird" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Xi-L0p" userLabel="bannerLbl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press the attack button to attack!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Xi-L0p" userLabel="bannerLbl">
                                 <rect key="frame" x="67" y="28" width="460" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.16524861106444266" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -56,18 +67,11 @@
                                     <constraint firstAttribute="height" constant="128" id="gwc-hs-sG9"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oneEyeBird" translatesAutoresizingMaskIntoConstraints="NO" id="zqe-d9-ufx" userLabel="enemy">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oneEyeBird" translatesAutoresizingMaskIntoConstraints="NO" id="zqe-d9-ufx" userLabel="oneEyedBird">
                                 <rect key="frame" x="330" y="430" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="8vM-1v-xNu"/>
                                     <constraint firstAttribute="width" constant="240" id="Vpp-LE-Hoi"/>
-                                </constraints>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="treasureChest" translatesAutoresizingMaskIntoConstraints="NO" id="8vn-Ci-Y85">
-                                <rect key="frame" x="330" y="430" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="BLS-9L-aH3"/>
-                                    <constraint firstAttribute="width" constant="240" id="sK1-9y-A5x"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lf2-fi-WVU" userLabel="metaKnightHP">
@@ -83,31 +87,55 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2w-yS-hw5" userLabel="enemyHP">
                                 <rect key="frame" x="405" y="392" width="91" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="85s-nD-WPv"/>
                                     <constraint firstAttribute="width" constant="91" id="8Ng-7o-DZD"/>
+                                    <constraint firstAttribute="height" constant="30" id="Azh-Oq-6r1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jug-iS-hAG" userLabel="attackButton">
+                                <rect key="frame" x="502" y="504" width="78" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="6zR-XQ-Dck"/>
+                                    <constraint firstAttribute="width" constant="75" id="cY5-gS-VFp"/>
+                                </constraints>
+                                <state key="normal" image="attackButton"/>
+                                <connections>
+                                    <action selector="onAttackBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPY-1F-hnj"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowBird" translatesAutoresizingMaskIntoConstraints="NO" id="R1b-M3-84g" userLabel="commonBird">
+                                <rect key="frame" x="330" y="430" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="7ys-6f-HRO"/>
+                                    <constraint firstAttribute="height" constant="128" id="RrP-fZ-cJg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="goK-fc-XLz"/>
+                                    <constraint firstAttribute="width" constant="240" id="yLw-bO-7nv"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Lf2-fi-WVU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Vr-js-cvX"/>
                             <constraint firstAttribute="trailing" secondItem="zqe-d9-ufx" secondAttribute="trailing" constant="30" id="3Yo-Py-rkB"/>
                             <constraint firstItem="4Ud-Fy-U8A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4uS-C2-xW4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jug-iS-hAG" secondAttribute="bottom" constant="20" id="6FF-Qu-5rF"/>
                             <constraint firstAttribute="trailing" secondItem="yo1-SX-cdU" secondAttribute="trailing" id="6HH-GZ-yfi"/>
                             <constraint firstItem="hUK-oR-vpw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6iO-EW-xxP"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yo1-SX-cdU" secondAttribute="bottom" id="A00-oT-Wvk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R1b-M3-84g" secondAttribute="trailing" constant="10" id="Agj-vl-yF7"/>
                             <constraint firstItem="4Ud-Fy-U8A" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DL9-WR-9mA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R1b-M3-84g" secondAttribute="bottom" constant="42" id="Dcb-Tf-iNc"/>
                             <constraint firstItem="Yyu-B1-7vd" firstAttribute="top" secondItem="Lf2-fi-WVU" secondAttribute="bottom" constant="8" id="I5C-e3-1TG"/>
+                            <constraint firstItem="zqe-d9-ufx" firstAttribute="top" secondItem="s2w-yS-hw5" secondAttribute="bottom" constant="8" id="NB3-Ai-N6a"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hUK-oR-vpw" secondAttribute="bottom" id="PAb-PA-NRZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8vn-Ci-Y85" secondAttribute="bottom" constant="42" id="UUn-fm-Tur"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zBN-OV-Lpb" secondAttribute="bottom" constant="42" id="VSd-kF-wty"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zBN-OV-Lpb" secondAttribute="trailing" constant="77" id="XqF-xM-lY9"/>
                             <constraint firstItem="Lf2-fi-WVU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="121" id="aPv-gx-oUQ"/>
-                            <constraint firstItem="8vn-Ci-Y85" firstAttribute="top" secondItem="s2w-yS-hw5" secondAttribute="bottom" constant="8" id="inD-CV-fQb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="s2w-yS-hw5" secondAttribute="trailing" constant="84" id="k1x-11-XGO"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Ud-Fy-U8A" secondAttribute="bottom" id="mu9-Qa-USh"/>
-                            <constraint firstAttribute="trailing" secondItem="8vn-Ci-Y85" secondAttribute="trailing" constant="30" id="o0X-fh-Zer"/>
+                            <constraint firstAttribute="trailing" secondItem="Jug-iS-hAG" secondAttribute="trailing" constant="20" id="ojb-Wv-WFj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Yyu-B1-7vd" secondAttribute="bottom" constant="42" id="qYr-On-B6e"/>
                             <constraint firstItem="Jkx-00-Rtw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qoV-U3-Way"/>
                             <constraint firstItem="s2w-yS-hw5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sHd-nC-BhH"/>
@@ -117,6 +145,14 @@
                             <constraint firstItem="Yyu-B1-7vd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="yrk-Ym-afA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannerLbl" destination="GbV-Xi-L0p" id="QBd-hd-RrL"/>
+                        <outlet property="commonBirdImage" destination="R1b-M3-84g" id="ftF-hG-K9k"/>
+                        <outlet property="cybirdImage" destination="zqe-d9-ufx" id="jCE-Gf-CWv"/>
+                        <outlet property="enemyHpLbl" destination="s2w-yS-hw5" id="fvH-ML-HP6"/>
+                        <outlet property="metaKnightHpLbl" destination="Lf2-fi-WVU" id="iiD-z8-kLd"/>
+                        <outlet property="treasureChestBtn" destination="zBN-OV-Lpb" id="y1b-MS-ade"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,11 +160,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="attackButton" width="120" height="120"/>
         <image name="background" width="750" height="750"/>
         <image name="oneEyeBird" width="175" height="175"/>
         <image name="snowBottomBG-1" width="800" height="90"/>
         <image name="swordsman" width="250" height="148"/>
         <image name="treasureChest" width="201" height="230"/>
         <image name="whiteSnowBanner" width="2400" height="300"/>
+        <image name="yellowBird" width="250" height="250"/>
     </resources>
 </document>
