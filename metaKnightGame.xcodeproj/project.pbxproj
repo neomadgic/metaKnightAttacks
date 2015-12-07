@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */; };
+		76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CD1C1560E1008783D7 /* ViewController.swift */; };
+		76F5E2D11C1560E1008783D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F5E2CF1C1560E1008783D7 /* Main.storyboard */; };
+		76F5E2D31C1560E1008783D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F5E2D21C1560E1008783D7 /* Assets.xcassets */; };
+		76F5E2D61C1560E1008783D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F5E2D41C1560E1008783D7 /* LaunchScreen.storyboard */; };
+		76F5E2E11C1560E1008783D7 /* metaKnightGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2E01C1560E1008783D7 /* metaKnightGameTests.swift */; };
+		76F5E2EC1C1560E1008783D7 /* metaKnightGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2EB1C1560E1008783D7 /* metaKnightGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76F5E2DD1C1560E1008783D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F5E2C01C1560E1008783D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F5E2C71C1560E1008783D7;
+			remoteInfo = metaKnightGame;
+		};
+		76F5E2E81C1560E1008783D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76F5E2C01C1560E1008783D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F5E2C71C1560E1008783D7;
+			remoteInfo = metaKnightGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76F5E2C81C1560E1008783D7 /* metaKnightGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metaKnightGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76F5E2CD1C1560E1008783D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76F5E2D01C1560E1008783D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F5E2D21C1560E1008783D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F5E2D51C1560E1008783D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F5E2D71C1560E1008783D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F5E2DC1C1560E1008783D7 /* metaKnightGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metaKnightGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F5E2E01C1560E1008783D7 /* metaKnightGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaKnightGameTests.swift; sourceTree = "<group>"; };
+		76F5E2E21C1560E1008783D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F5E2E71C1560E1008783D7 /* metaKnightGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metaKnightGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F5E2EB1C1560E1008783D7 /* metaKnightGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaKnightGameUITests.swift; sourceTree = "<group>"; };
+		76F5E2ED1C1560E1008783D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F5E2C51C1560E1008783D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5E2D91C1560E1008783D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5E2E41C1560E1008783D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F5E2BF1C1560E1008783D7 = {
+			isa = PBXGroup;
+			children = (
+				76F5E2CA1C1560E1008783D7 /* metaKnightGame */,
+				76F5E2DF1C1560E1008783D7 /* metaKnightGameTests */,
+				76F5E2EA1C1560E1008783D7 /* metaKnightGameUITests */,
+				76F5E2C91C1560E1008783D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76F5E2C91C1560E1008783D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E2C81C1560E1008783D7 /* metaKnightGame.app */,
+				76F5E2DC1C1560E1008783D7 /* metaKnightGameTests.xctest */,
+				76F5E2E71C1560E1008783D7 /* metaKnightGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F5E2CA1C1560E1008783D7 /* metaKnightGame */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */,
+				76F5E2CD1C1560E1008783D7 /* ViewController.swift */,
+				76F5E2CF1C1560E1008783D7 /* Main.storyboard */,
+				76F5E2D21C1560E1008783D7 /* Assets.xcassets */,
+				76F5E2D41C1560E1008783D7 /* LaunchScreen.storyboard */,
+				76F5E2D71C1560E1008783D7 /* Info.plist */,
+			);
+			path = metaKnightGame;
+			sourceTree = "<group>";
+		};
+		76F5E2DF1C1560E1008783D7 /* metaKnightGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E2E01C1560E1008783D7 /* metaKnightGameTests.swift */,
+				76F5E2E21C1560E1008783D7 /* Info.plist */,
+			);
+			path = metaKnightGameTests;
+			sourceTree = "<group>";
+		};
+		76F5E2EA1C1560E1008783D7 /* metaKnightGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E2EB1C1560E1008783D7 /* metaKnightGameUITests.swift */,
+				76F5E2ED1C1560E1008783D7 /* Info.plist */,
+			);
+			path = metaKnightGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F5E2C71C1560E1008783D7 /* metaKnightGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F5E2F01C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGame" */;
+			buildPhases = (
+				76F5E2C41C1560E1008783D7 /* Sources */,
+				76F5E2C51C1560E1008783D7 /* Frameworks */,
+				76F5E2C61C1560E1008783D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metaKnightGame;
+			productName = metaKnightGame;
+			productReference = 76F5E2C81C1560E1008783D7 /* metaKnightGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76F5E2DB1C1560E1008783D7 /* metaKnightGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F5E2F31C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGameTests" */;
+			buildPhases = (
+				76F5E2D81C1560E1008783D7 /* Sources */,
+				76F5E2D91C1560E1008783D7 /* Frameworks */,
+				76F5E2DA1C1560E1008783D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F5E2DE1C1560E1008783D7 /* PBXTargetDependency */,
+			);
+			name = metaKnightGameTests;
+			productName = metaKnightGameTests;
+			productReference = 76F5E2DC1C1560E1008783D7 /* metaKnightGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76F5E2E61C1560E1008783D7 /* metaKnightGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F5E2F61C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGameUITests" */;
+			buildPhases = (
+				76F5E2E31C1560E1008783D7 /* Sources */,
+				76F5E2E41C1560E1008783D7 /* Frameworks */,
+				76F5E2E51C1560E1008783D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F5E2E91C1560E1008783D7 /* PBXTargetDependency */,
+			);
+			name = metaKnightGameUITests;
+			productName = metaKnightGameUITests;
+			productReference = 76F5E2E71C1560E1008783D7 /* metaKnightGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F5E2C01C1560E1008783D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vu Dang";
+				TargetAttributes = {
+					76F5E2C71C1560E1008783D7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					76F5E2DB1C1560E1008783D7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 76F5E2C71C1560E1008783D7;
+					};
+					76F5E2E61C1560E1008783D7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 76F5E2C71C1560E1008783D7;
+					};
+				};
+			};
+			buildConfigurationList = 76F5E2C31C1560E1008783D7 /* Build configuration list for PBXProject "metaKnightGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F5E2BF1C1560E1008783D7;
+			productRefGroup = 76F5E2C91C1560E1008783D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F5E2C71C1560E1008783D7 /* metaKnightGame */,
+				76F5E2DB1C1560E1008783D7 /* metaKnightGameTests */,
+				76F5E2E61C1560E1008783D7 /* metaKnightGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F5E2C61C1560E1008783D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F5E2D61C1560E1008783D7 /* LaunchScreen.storyboard in Resources */,
+				76F5E2D31C1560E1008783D7 /* Assets.xcassets in Resources */,
+				76F5E2D11C1560E1008783D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5E2DA1C1560E1008783D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5E2E51C1560E1008783D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F5E2C41C1560E1008783D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */,
+				76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5E2D81C1560E1008783D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F5E2E11C1560E1008783D7 /* metaKnightGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5E2E31C1560E1008783D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F5E2EC1C1560E1008783D7 /* metaKnightGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76F5E2DE1C1560E1008783D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F5E2C71C1560E1008783D7 /* metaKnightGame */;
+			targetProxy = 76F5E2DD1C1560E1008783D7 /* PBXContainerItemProxy */;
+		};
+		76F5E2E91C1560E1008783D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F5E2C71C1560E1008783D7 /* metaKnightGame */;
+			targetProxy = 76F5E2E81C1560E1008783D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76F5E2CF1C1560E1008783D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F5E2D01C1560E1008783D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F5E2D41C1560E1008783D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F5E2D51C1560E1008783D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F5E2EE1C1560E1008783D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76F5E2EF1C1560E1008783D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F5E2F11C1560E1008783D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = metaKnightGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.metaKnightGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76F5E2F21C1560E1008783D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = metaKnightGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.metaKnightGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76F5E2F41C1560E1008783D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = metaKnightGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.metaKnightGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metaKnightGame.app/metaKnightGame";
+			};
+			name = Debug;
+		};
+		76F5E2F51C1560E1008783D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = metaKnightGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.metaKnightGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metaKnightGame.app/metaKnightGame";
+			};
+			name = Release;
+		};
+		76F5E2F71C1560E1008783D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = metaKnightGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.metaKnightGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = metaKnightGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		76F5E2F81C1560E1008783D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = metaKnightGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.metaKnightGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = metaKnightGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F5E2C31C1560E1008783D7 /* Build configuration list for PBXProject "metaKnightGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F5E2EE1C1560E1008783D7 /* Debug */,
+				76F5E2EF1C1560E1008783D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F5E2F01C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F5E2F11C1560E1008783D7 /* Debug */,
+				76F5E2F21C1560E1008783D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76F5E2F31C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F5E2F41C1560E1008783D7 /* Debug */,
+				76F5E2F51C1560E1008783D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76F5E2F61C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F5E2F71C1560E1008783D7 /* Debug */,
+				76F5E2F81C1560E1008783D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F5E2C01C1560E1008783D7 /* Project object */;
+}
