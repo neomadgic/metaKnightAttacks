@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76F58CDE1C1562480058E999 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F58CDD1C1562480058E999 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
 		76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */; };
 		76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CD1C1560E1008783D7 /* ViewController.swift */; };
 		76F5E2D11C1560E1008783D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F5E2CF1C1560E1008783D7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76F58CDD1C1562480058E999 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		76F5E2C81C1560E1008783D7 /* metaKnightGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metaKnightGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F5E2CD1C1560E1008783D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				76F5E2D21C1560E1008783D7 /* Assets.xcassets */,
 				76F5E2D41C1560E1008783D7 /* LaunchScreen.storyboard */,
 				76F5E2D71C1560E1008783D7 /* Info.plist */,
+				76F58CDD1C1562480058E999 /* Character.swift */,
 			);
 			path = metaKnightGame;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F58CDE1C1562480058E999 /* Character.swift in Sources */,
 				76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */,
 				76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +487,7 @@
 				76F5E2F21C1560E1008783D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F5E2F31C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGameTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				76F5E2F51C1560E1008783D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F5E2F61C1560E1008783D7 /* Build configuration list for PBXNativeTarget "metaKnightGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				76F5E2F81C1560E1008783D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
