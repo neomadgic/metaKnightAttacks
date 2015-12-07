@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		76C549761C156C3B00FAB9B1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C549751C156C3B00FAB9B1 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		76F1B13E1C1573270087C602 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B13D1C1573270087C602 /* Enemy.swift */; settings = {ASSET_TAGS = (); }; };
+		76F1B1401C1576C10087C602 /* Cybird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B13F1C1576C10087C602 /* Cybird.swift */; settings = {ASSET_TAGS = (); }; };
+		76F1B1441C15795B0087C602 /* CommonBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B1431C15795B0087C602 /* CommonBird.swift */; settings = {ASSET_TAGS = (); }; };
 		76F58CDE1C1562480058E999 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F58CDD1C1562480058E999 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
 		76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */; };
 		76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2CD1C1560E1008783D7 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		76C549751C156C3B00FAB9B1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		76F1B13D1C1573270087C602 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		76F1B13F1C1576C10087C602 /* Cybird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cybird.swift; sourceTree = "<group>"; };
+		76F1B1431C15795B0087C602 /* CommonBird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonBird.swift; sourceTree = "<group>"; };
 		76F58CDD1C1562480058E999 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		76F5E2C81C1560E1008783D7 /* metaKnightGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metaKnightGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F5E2CB1C1560E1008783D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				76F5E2D71C1560E1008783D7 /* Info.plist */,
 				76F58CDD1C1562480058E999 /* Character.swift */,
 				76C549751C156C3B00FAB9B1 /* Player.swift */,
+				76F1B13D1C1573270087C602 /* Enemy.swift */,
+				76F1B13F1C1576C10087C602 /* Cybird.swift */,
+				76F1B1431C15795B0087C602 /* CommonBird.swift */,
 			);
 			path = metaKnightGame;
 			sourceTree = "<group>";
@@ -261,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F1B1401C1576C10087C602 /* Cybird.swift in Sources */,
 				76C549761C156C3B00FAB9B1 /* Player.swift in Sources */,
+				76F1B13E1C1573270087C602 /* Enemy.swift in Sources */,
 				76F58CDE1C1562480058E999 /* Character.swift in Sources */,
+				76F1B1441C15795B0087C602 /* CommonBird.swift in Sources */,
 				76F5E2CE1C1560E1008783D7 /* ViewController.swift in Sources */,
 				76F5E2CC1C1560E1008783D7 /* AppDelegate.swift in Sources */,
 			);
